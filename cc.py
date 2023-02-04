@@ -30,9 +30,9 @@ def logo():
     figlet = Figlet(font="standard").renderText("Fox CC")
     return (gn + figlet)
 print (logo())
-print (bl + "[-] Powered by Black Fox Security Team ")
-print (gn + "[+] Made By Maximum Radikali")
-print (cy + "[=] Fox CC Tools Version : 1.1")
+print (bl + "[-] Powered by RAMBUTAN Security Team ")
+print (gn + "[+] Made By RAMBO")
+print (cy + "[=] RAMBUTAN CC Tools Version : 1.1")
 
 opr = input (mag + "\n[x] 1) Generate single valid cc\n[x] 2) Generate multi valid cc (generate cc list)\n[x] 3) CC validator\n[x] 4) Generate Multi Bin Number \n\n[^] Please Enter an option :  ")
 
@@ -91,4 +91,4 @@ elif opr == "4":
     print (rd)
     bin.bin_generator(number , round)
     print ("Saved File as bin_generated.txt !")
-    print (mag + "[$] Telegram Channel : @BlackFoxSecurityTeam" + cv)
+    print (mag + "[$] Telegram Channel : @RAMBUTANCC" + cv)
